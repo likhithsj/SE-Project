@@ -1,14 +1,26 @@
+"""
+The script calculates the cosine similarity between each prompt 
+and its corresponding answer. Cosine similarity is a common measure 
+for comparing text similarity in natural language processing.
+"""
 import json
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 # Load JSON data
-with open('your_json_file.json', 'r') as file:
-    data = json.load(file)
+json_files = ['commitsharing.json', 'discussions.json', 'filesharing.json', 'hnsharing.json', 'issuesharing.json', 'prsharing.json']
+dfs = [] #initialize an empty list to store dataframes
 
-# Convert to DataFrame
-df = pd.json_normalize(data, record_path=['Chats'])
+#loop through each file and load data
+for file_name in json_files:
+    with open(file_name, 'r') as file:
+        data = json.load(file)
+        df = pd.json_normalize(data, record_path = ['Chats'])
+        dfs.append(df)
+
+# Concatenate all DataFrames into one
+df = pd.concat(dfs, ignore_index=True)
 
 # Ensure text is in string format
 df['Prompt'] = df['Prompt'].astype(str)
@@ -21,6 +33,7 @@ df['Answer_Length'] = df['Answer'].apply(len)
 # More features can be added here, such as complexity, specific keywords, etc.
 
 # Create a TfidfVectorizer
+# TF-IDF: term frequency-inverse document frequency
 vectorizer = TfidfVectorizer()
 
 # Combine Prompts and Answers for TF-IDF
