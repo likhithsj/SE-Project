@@ -1,0 +1,11 @@
+PS C:\Users\zhang\Desktop> & C:/Users/zhang/AppData/Local/Programs/Python/Python312/python.exe c:/Users/zhang/Desktop/similarity_model.py
+                   Prompt_Length  Cosine_Similarity
+Prompt_Length           1.000000           0.050476
+Cosine_Similarity       0.050476           1.000000
+
+The output of the python script is a correlation matrix between Prompt_Length and Cosine_Similarity. 
+The matrix shows that there is a weak positive correlation between the length of the prompt and the cosine similarity score. 
+This means that as the length of the prompt increases, the cosine similarity score also increases slightly. 
+However, the correlation is not strong enough to make any definitive conclusions.
+For the current stage, we only know the length of the input may influence the answers to some extent.
+In the next steps, we will try to find out how exactly different working impact the output.
