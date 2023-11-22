@@ -1,0 +1,9 @@
+This script calculates the cosine similarity between each prompt 
+and its corresponding answer. Cosine similarity is a common measure 
+for comparing text similarity in natural language processing.
+The script uses the pandas, sklearn.feature_extraction.text, and sklearn.metrics.pairwise libraries. 
+It loads data from six JSON files, which was filtered by Likhith, concatenates them into one DataFrame, 
+and calculates the cosine similarity between the prompts and answers using the TfidfVectorizer class. 
+The script then adds the cosine similarity scores to the DataFrame and performs some basic statistical analysis, 
+calculating the correlation between prompt length and similarity score. 
+The script will be updated to analyze the correlation between prompt phrasing and similarity score.
