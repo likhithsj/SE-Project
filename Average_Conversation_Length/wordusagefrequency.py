@@ -48,7 +48,7 @@ print("Most common words:", word_freq.most_common(10))
 
 # Visualize word frequencies with a bar chart
 plt.bar(*zip(*word_freq.most_common(10)))
-plt.xlabel('Words')
+plt.xlabel('programming languages')
 plt.ylabel('Frequency')
 plt.title('Top 10 Most Common Programming Languages')
 plt.xticks(rotation=45, ha='right')  # Rotate x-axis labels
