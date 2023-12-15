@@ -50,7 +50,7 @@ print("Most common words:", word_freq.most_common(10))
 plt.bar(*zip(*word_freq.most_common(10)))
 plt.xlabel('Words')
 plt.ylabel('Frequency')
-plt.title('Top 10 Most Common Programming Language Words')
+plt.title('Top 10 Most Common Programming Languages')
 plt.xticks(rotation=45, ha='right')  # Rotate x-axis labels
 plt.tight_layout()  # Adjust layout for better readability
 plt.show()
