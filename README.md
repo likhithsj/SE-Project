@@ -52,7 +52,7 @@ How does the conversation length vary between different types of issues and amon
 
 **FILE STRUCTURE:**
 
-Average_Conversation_Length file answers the second research question
+Average_Conversation_Length file answers the second research question It has five filtered datasets, ToFilterData file, ToFindConversationLength file, Wordusagefrequencyfile, and output screenshots.
 
 THIRD QUESTION:
 ----------
