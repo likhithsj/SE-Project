@@ -46,7 +46,11 @@ The genearted output files are in Output and the final result as follows below.
 ![image](https://github.com/likhithsj/SE-Project/assets/53929108/cb0f922d-f052-43da-8333-3fa2cc7e1064)
 
 SECOND QUESTION: 
------------
+------------
+
+How does the conversation length vary between different types of issues and among coding prompts what are the common languages do developers regularly ask ChatGPT.
+
+**FILE STRUCTURE:**
 
 THIRD QUESTION:
 ----------
