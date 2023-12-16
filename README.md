@@ -78,3 +78,25 @@ To run the code open ToFindConversationLenght.py file, mention the name of the d
 THIRD QUESTION:
 ----------
 
+How does the length of a question affect ChatGPT's response length?
+
+**FILE STRUCTURE:**
+
+  Wording influence file answers the third research question it has Output figures, Analysis.txt and length_influence.py file
+  
+    - Output figures show the experimental results.
+    - length_influence.py is the main code.
+    - Analysis.txt gives the detailed result explanation.
+
+**SOLUTION SETUP:**
+
+To run the code open Wording influence file, then simply run the python script "length_influence.py" by intalling the proper libraries. (pip install pandas matplotlib seaborn scipy) 
+
+**RESULTS:**
+
+The results are as follows:
+
+![image](https://github.com/likhithsj/SE-Project/assets/125890917/4ffe7b95-6c6c-41b1-ba79-76bffa3059d3)
+![image](https://github.com/likhithsj/SE-Project/assets/125890917/1a5c93de-120a-4745-92f8-81d6354f11f2)
+
+
