@@ -52,7 +52,11 @@ How does the conversation length vary between different types of issues and amon
 
 **FILE STRUCTURE:**
 
-Average_Conversation_Length file answers the second research question It has five filtered datasets, ToFilterData.py file to filter the datasets, ToFindConversationLength.py file to fild the average conversation lenght of the filtered datasets, Wordusagefrequencyfile.py file to find the frequency of programming languages do developers regulalry ask chatGPT, and output screenshots.
+Average_Conversation_Length file answers the second research question It has five filtered datasets, ToFilterData.py file to filter the datasets, ToFindConversationLength.py file to find the average conversation lenght of the filtered datasets, Wordusagefrequencyfile.py file to find the frequency of programming languages do developers regulalry ask chatGPT, and output screenshots.
+
+**SOLUTION SETUP:**
+
+To run the code open ToFindConversationLenght.py file, mention the name of the dataset in 'json_file_path' to find the average conversation length of the dataset. To filter the datasets, open ToFilterData.py file, mention the name of the dataset to filter in 'json_file_path' and mention the file path in 'path' to store the filtered the data. To find the frequency of programming languages do developers ask chatGPT
 
 THIRD QUESTION:
 ----------
