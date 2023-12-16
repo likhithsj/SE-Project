@@ -58,7 +58,7 @@ Average_Conversation_Length file answers the second research question It has fiv
 
 To run the code open ToFindConversationLenght.py file, mention the name of the dataset in 'json_file_path' to find the average conversation length of the dataset. To filter the datasets, open ToFilterData.py file, mention the name of the dataset to filter in 'json_file_path' and mention the file path in 'path' to store the filtered the data. Open Wordusagefrequency.py file To find the frequency of programming languages do developers ask chatGPT, mention the dataset name in 'json_file_path' to find the most common programming languages that developers ask chatGPT.
 
-**RESULT:**
+**RESULTS:**
 
 ![Screenshot 2023-12-06 212034](https://github.com/likhithsj/SE-Project/assets/72007255/5bd3090b-80f3-4aa1-9b1a-cd249ca1288c)
 
