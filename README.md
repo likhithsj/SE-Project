@@ -48,11 +48,11 @@ The genearted output files are in Output and the final result as follows below.
 SECOND QUESTION: 
 ------------
 
-How does the conversation length vary between different types of issues and among coding prompts what are the common languages do developers regularly ask ChatGPT.
+How does the conversation length vary between different types of issues and among coding prompts what are the common programming languages do developers regularly ask ChatGPT.
 
 **FILE STRUCTURE:**
 
-Average_Conversation_Length file answers the second research question It has five filtered datasets, ToFilterData file, ToFindConversationLength file, Wordusagefrequencyfile, and output screenshots.
+Average_Conversation_Length file answers the second research question It has five filtered datasets, ToFilterData.py file to filter the datasets, ToFindConversationLength.py file to fild the average conversation lenght of the filtered datasets, Wordusagefrequencyfile.py file to find the frequency of programming languages do developers regulalry ask chatGPT, and output screenshots.
 
 THIRD QUESTION:
 ----------
